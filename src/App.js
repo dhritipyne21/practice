@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-//it returns jsx as a componemt//JRE babel=> jsx=>native js(ES5)//className conflict//component usp
+import Functional from './components/Functional';
+import ClassBased from './components/ClassBased';
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Functional/>
+        <ClassBased/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
