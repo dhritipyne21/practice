@@ -3,14 +3,18 @@ import './App.css';
 import Functional from './components/Functional';
 import ClassBased from './components/ClassBased';
 import LifeCycle from './components/LifeCycle';
+import Parent from './components/Parent';
+import EventListener from './components/EventListener';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Functional/>
+        {/* <Functional/>
         <ClassBased/>
-        <LifeCycle/>
+        <LifeCycle/> */}
+        {/* <Parent></Parent> */}
+        <EventListener></EventListener>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
