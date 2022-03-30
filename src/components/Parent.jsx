@@ -8,7 +8,7 @@ const Parent =()=>{
     return(
         <>JSX 
         <Child kuchbhi={name}> </Child>
-        </>
+        </>//jsx fragment
         
     )
 }

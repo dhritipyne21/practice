@@ -5,6 +5,9 @@ import ClassBased from './components/ClassBased';
 import LifeCycle from './components/LifeCycle';
 import Parent from './components/Parent';
 import EventListener from './components/EventListener';
+import BasicJSX from './components/BasicJSX';
+import Listing from './components/Listing';
+
 
 function App() {
   return (
@@ -13,8 +16,10 @@ function App() {
         {/* <Functional/>
         <ClassBased/>
         <LifeCycle/> */}
-        {/* <Parent></Parent> */}
-        <EventListener></EventListener>
+        {/* <Parent/> */}
+        {/* <EventListener></EventListener> */}
+        {/* <BasicJSX/> */}
+        <Listing/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
