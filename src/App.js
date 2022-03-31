@@ -1,12 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import Functional from './components/Functional';
-import ClassBased from './components/ClassBased';
-import LifeCycle from './components/LifeCycle';
-import Parent from './components/Parent';
-import EventListener from './components/EventListener';
-import BasicJSX from './components/BasicJSX';
-import Listing from './components/Listing';
+// import Functional from './components/Functional';
+// import ClassBased from './components/ClassBased';
+// import LifeCycle from './components/LifeCycle';
+// import Parent from './components/Parent';
+// import EventListener from './components/EventListener';
+// import BasicJSX from './components/BasicJSX';
+// import Listing from './components/Listing';
+// import PracticeFunction from './components/PracticeFunction';
+import TestParent from './components/Test1/TestParent';
+import APIStarter from './components/APIStarter';
 
 
 function App() {
@@ -19,7 +22,10 @@ function App() {
         {/* <Parent/> */}
         {/* <EventListener></EventListener> */}
         {/* <BasicJSX/> */}
-        <Listing/>
+        {/* <PracticeFunction/> */}
+        {/* <Listing/> */}
+        {/* <TestParent/> */}
+        <APIStarter/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.

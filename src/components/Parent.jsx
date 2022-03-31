@@ -7,7 +7,7 @@ const Parent =()=>{
 
     return(
         <>JSX 
-        <Child kuchbhi={name}> </Child>
+        <Child attr={name}> </Child>
         </>//jsx fragment
         
     )

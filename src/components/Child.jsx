@@ -1,10 +1,10 @@
 import React,{ useState } from "react";
 
-const Child =({kuchbhi})=>{
+const Child =({attr})=>{
 
     const name = "Dhriti"
     return(
-        <>Inside Child {kuchbhi}</>
+        <>Inside Child {attr}</>
     )
 }
 export default Child;
