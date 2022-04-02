@@ -10,6 +10,7 @@ import './App.css';
 // import PracticeFunction from './components/PracticeFunction';
 import TestParent from './components/Test1/TestParent';
 import APIStarter from './components/APIStarter';
+import Form from './components/Form';
 
 
 function App() {
@@ -25,7 +26,8 @@ function App() {
         {/* <PracticeFunction/> */}
         {/* <Listing/> */}
         {/* <TestParent/> */}
-        <APIStarter/>
+        {/* <APIStarter/> */}
+        <Form/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
